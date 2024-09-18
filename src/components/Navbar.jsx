@@ -42,7 +42,11 @@ function Navbar() {
         <div className="flex items-center space-x-8 mr-16">
           <span>Login</span>
           <span>Cart (0)</span>
-          <span className="cursor-pointer">&#128269;</span>
+          <img
+            src="/src/assets/search_icon.png"
+            alt=""
+            className="cursor-pointer w-5"
+          />
         </div>
       </nav>
     </div>
