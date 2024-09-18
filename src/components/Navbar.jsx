@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
@@ -15,25 +16,25 @@ function Navbar() {
 
         {/* Navigation Links */}
         <ul className="flex space-x-12 text-lg">
-          <NavLink to="/home">
-            <p className="border-b-2 border-black">Home</p>
-            <hr className="w-2/3 border-none h-[1.5px] bg-gray-700 hidden" />
+          <NavLink to="/">
+            <p className="border-black">Home</p>
+            <hr className=" border-none h-[1.5px] bg-gray-700 hidden" />
           </NavLink>
           <NavLink to="shop">
-            <p className="border-b-2 border-black">Shop</p>
-            <hr className="w-2/3 border-none h-[1.5px] bg-gray-700 hidden" />
+            <p className="border-black">Shop</p>
+            <hr className=" border-none h-[1.5px] bg-gray-700 hidden" />
           </NavLink>
           <NavLink to="/features">
-            <p className="border-b-2 border-black">Features</p>
-            <hr className="w-2/3 border-none h-[1.5px] bg-gray-700 hidden" />
+            <p className="border-black">Features</p>
+            <hr className=" border-none h-[1.5px] bg-gray-700 hidden" />
           </NavLink>
           <NavLink to="/blog">
-            <p className="border-b-2 border-black">Blog</p>
-            <hr className="w-2/3 border-none h-[1.5px] bg-gray-700 hidden" />
+            <p className="border-black">Blog</p>
+            <hr className="hidden  border-none h-[1.5px] bg-gray-700" />
           </NavLink>
           <NavLink to="/contact-us">
-            <p className="border-b-2 border-black">Contact Us</p>
-            <hr className="w-2/3 border-none h-[1.5px] bg-gray-700 hidden" />
+            <p className=" border-black">Contact Us</p>
+            <hr className=" border-none h-[1.5px] bg-gray-700 hidden" />
           </NavLink>
         </ul>
 
